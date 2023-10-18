@@ -49,11 +49,12 @@ export const CategoryPage = () => {
                     </h1>
 
                     <div className='flex justify-center items-center'>
-                        <img
+                    <i >{src} </i>
+                        {/* <img
                             src= {imgCategory}
                             alt={category}
                             className='w-72'
-                        />
+                        /> */}
                     </div>
                 </div>
 
