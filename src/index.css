@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-i svg {
+/* i svg {
     font-size: 3em;
-color: black;
+    color: black;
+    
 }
+body{
+    height: 100vh;
+
+} */

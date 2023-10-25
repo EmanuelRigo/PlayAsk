@@ -12,9 +12,13 @@ export const CategoryPage = () => {
 
     const { category } = useParams()
 
+    
+
     const [imgCategory] = imgs.filter(
 		img => img === `/src/assets/${category.toLowerCase()}.png`
 	);
+
+
 
     const [questionsFiltered, setQuestionsFiltered] = useState(
 		questions.filter(question => question.category === category)
@@ -49,12 +53,11 @@ export const CategoryPage = () => {
                     </h1>
 
                     <div className='flex justify-center items-center'>
-                    <i >{src} </i>
-                        {/* <img
+                        <img
                             src= {imgCategory}
                             alt={category}
                             className='w-72'
-                        /> */}
+                        />
                     </div>
                 </div>
 

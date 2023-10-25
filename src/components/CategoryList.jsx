@@ -19,8 +19,8 @@ const [
 export const CategoryList = () => {
 
     return (
-        <div className='flex flex-row flex-wrap justify-center gap-4 mt-10'>
-             
+        <div className=' grid grid-cols-2 gap-5 sm:grid-cols-4 '>
+              
             
             <CategoryCard
             
@@ -29,9 +29,10 @@ export const CategoryList = () => {
             
                 src={<GiPunch></GiPunch>}
                 alt={`categoría ${categories.pelea}`}
-                
-                gradientColor="from-purple-500 to-pink-500"
+                gradientColor="bg-violet-600"
+               
             />
+             
 
 
            
@@ -39,7 +40,7 @@ export const CategoryList = () => {
                 category={categories.deportes}
                 src={<GiAmericanFootballBall/>}
                 alt={`categoría ${categories.deportes}`}
-                gradientColor="from-lime-400 to-teal-700"
+                gradientColor="bg-yellow-400"
             />
 
 
@@ -48,7 +49,7 @@ export const CategoryList = () => {
                 category={categories.aventura}
                 src={<GiOutbackHat/>}
                 alt={`categoría ${categories.aventura}`}
-                gradientColor="from-red-400 to-zinc-400"
+                gradientColor="bg-lime-600"
             />
 
             
@@ -56,7 +57,7 @@ export const CategoryList = () => {
                 category={categories.clasicos}
                 src={<GiGameConsole/>}
                 alt={`categoría ${categories.clasicos}`}
-                gradientColor="from-cyan-200 to-lima-200"
+                gradientColor="bg-blue-600"
             />
 
             
@@ -64,7 +65,7 @@ export const CategoryList = () => {
                 category={categories.arcade}
                 src={<SiApplearcade/>}
                 alt={`categoría ${categories.arcade}`}
-                gradientColor="from-sky-300 to-indigo-900"
+                gradientColor="bg-pink-500"
             />
 
             
@@ -72,7 +73,7 @@ export const CategoryList = () => {
                 category={categories.terror}
                 src={<GiGhost/>}
                 alt={`categoría ${categories.terror}`}
-                gradientColor="from-amber-400 to-emerald-600"
+                gradientColor="bg-orange-700"
             />
 
            
@@ -80,14 +81,14 @@ export const CategoryList = () => {
                 category={categories.estrategias}
                 src={<GiChessKnight/>}
                 alt={`categoría ${categories.estrategias}`}
-                gradientColor="from-violet-900 to-rose-500"
+                gradientColor="bg-teal-600"
             />
 
             <CategoryCard
                 category={categories.accion}
                 src={<GiSwitchWeapon/>}
                 alt={`categoría ${categories.accion}`}
-                gradientColor="from-yellow-500 to-violet-500"
+                gradientColor="bg-fuchsia-600"
             />
         </div>
     )
