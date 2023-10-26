@@ -1,13 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* i svg {
+i svg {
     font-size: 3em;
     color: black;
     
 }
 body{
-    height: 100vh;
+    min-height: 100vh;
+    background: url('https://cutewallpaper.org/27/blue-and-pink-desktop-wallpaper/2628314064.jpg') center;
+    background-size: cover;
 
-} */
+}
+.tarjetas:nth-child(1){
+    background: rgba(255, 0, 0, 0.452);
+}
+.tarjetas:nth-child(2){
+    background: rgb(218, 218, 44);
+}
+.tarjetas:nth-child(3){
+    background: orange;
+}
+.tarjetas:nth-child(4){
+    background: rgb(49, 49, 233, 0.452);
+}
+.tarjetas:nth-child(5){
+    background: gray;
+}
+.tarjetas:nth-child(6){
+    background: orangered;
+}
+.tarjetas:nth-child(7){
+    background: teal;
+}
+.tarjetas:nth-child(8){
+    background: violet;
+}
+.glass{
+    /* position: absolute; */
+    width: 900px;
+    height: 500px;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+}
+.glass-2{
+    /* position: absolute; */
+    /* width: 150px;
+    height: 150px; */
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 50px;
+    /* border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2); */
+   
+}
