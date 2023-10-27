@@ -7,7 +7,7 @@ export default {
   theme: {
     fontFamily: {
       rale: ['Playpen Sans'],
-      
+      titulo: ['Pacifico']
     },
     extend: {},
     container : {

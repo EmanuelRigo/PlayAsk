@@ -22,13 +22,13 @@ export const CategoryList = () => {
         <div className='grid grid-cols-2 gap-5 sm:grid-cols-4 '>
               
             
-            <CategoryCard
+            <CategoryCard className="sombra"
             
 
                 category={categories.pelea}
             
                 src={<GiPunch></GiPunch>}
-                alt={`glass categoría ${categories.pelea}`}
+                alt={` categoría ${categories.pelea}`}
                 // gradientColor="bg-violet-600"
                
             />
