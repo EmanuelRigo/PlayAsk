@@ -9,7 +9,9 @@ export default {
       rale: ['Playpen Sans'],
       titulo: ['Pacifico']
     },
-    extend: {},
+    extend: {
+    
+    },
     container : {
       center: true,
     },

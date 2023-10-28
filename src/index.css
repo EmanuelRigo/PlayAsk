@@ -18,44 +18,52 @@ body{
    
 }
 
-/* rgb(10 8 8 / 48%); */
+
 
 .tarjetas{
     background:  rgb(10 8 8 / 48%);
 }
 
 .tarjetas:nth-child(1):hover{
-    background: rgba(255, 0, 0, 0.575);
+    background: red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    
 }
 .tarjetas:nth-child(2):hover{
-    background: rgba(218, 218, 44,0.575);
+    background: yellowgreen;
+     box-shadow: 0 0 10px yellowgreen, 0 0 40px yellowgreen, 0 0 80px yellowgreen;
+    
 }
 .tarjetas:nth-child(3):hover{
-    background: rgba(255, 166, 0, 0.575);
+    background: orange;
+     box-shadow: 0 0 10px orange, 0 0 40px orange, 0 0 80px orange;
 }
 .tarjetas:nth-child(4):hover{
-    background: rgba(209, 255, 2, 0.575);
+    background: aqua;
+     box-shadow: 0 0 10px aqua, 0 0 40px aqua, 0 0 80px aqua;
 }
 .tarjetas:nth-child(5):hover{
-    background: rgba(128, 128, 128, 0.575);
+    background: fuchsia;
+     box-shadow: 0 0 10px fuchsia, 0 0 40px fuchsia, 0 0 80px fuchsia;
 }
 .tarjetas:nth-child(6):hover{
-    background: rgba(255, 68, 0, 0.575);
+    background: orangered;
+     box-shadow: 0 0 10px orangered, 0 0 40px orangered, 0 0 80px orangered;
 }
 .tarjetas:nth-child(7):hover{
-    background: rgba(0, 128, 128, 0.575);
+    background: lime;
+     box-shadow: 0 0 10px lime, 0 0 40px lime, 0 0 80px lime;
 }
 .tarjetas:nth-child(8):hover{
-    background: rgba(238, 130, 238, 0.575);
+    background: mediumvioletred;
+     box-shadow: 0 0 10px mediumvioletred, 0 0 40px mediumvioletred, 0 0 80px mediumvioletred;
 }
 .glass{
-    /* position: absolute; */
-    width: 900px;
-    height: 500px;
+    
     background: rgba(255, 255, 255, .1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
     border-radius: 1.5rem;
-    margin-top: 183px;
+    margin-top: 85px;
     border: 2px solid rgba(255, 255, 255, .5);
     border-right: 2px solid rgba(255, 255, 255, .2);
     border-bottom: 2px solid rgba(255, 255, 255, .2);
