@@ -35,7 +35,7 @@ export const CategoryPage = () => {
     return (
 
         <div className="container flex flex-col items-center justify-center gap-10"
-            style={{ height: ' calc(100vh - 5rem' }} >
+            style={{ height: ' calc(85vh - 5rem' }} >
 
             {activeQuiz ? (
              	<Question
@@ -48,7 +48,7 @@ export const CategoryPage = () => {
             ) : (
                 <>
                 <div className='flex flex-col gap-5'>
-                    <h1 className='text-3xl text-teal-900 text-center font-bold'>
+                    <h1 className='text-3xl text-white text-center font-bold'>
                         {category}
                     </h1>
 
@@ -62,11 +62,12 @@ export const CategoryPage = () => {
                 </div>
 
                 <button
-                    className='text-white bg-gray-900 py-2 rounded-lg font-bold px-5 transition-all hover:bg-yellow-500 hover:text-gray-900'
+                    className='bt-quiz bg-[rgba(10,8,8,0.48)] text-white  py-3 px-5 rounded-xl font-bold'
                     onClick={() => setActiveQuiz(true)}
                 >
                     Iniciar Quiz
                 </button>
+              
             </>
             )}
 

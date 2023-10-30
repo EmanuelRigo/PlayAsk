@@ -56,7 +56,7 @@ export const Question = ({
                 onReset={onReset}
             />
 
-        ) : (<div className='flex flex-col justify-between shadow-md shadow-slate-300 w-[600px] h-[600px] p-10 rounded-lg'>
+        ) : (<div className='flex flex-col justify-between bg-sky-800 text-white px-5 py-2 w-[350px] h-[400px] sm:py-5 mt-28 sm:mt-10 sm:w-[600px] sm:h-[500px] rounded-lg'>
             <div className='flex justify-between'>
                 <span className='text.xl font-bold'>
                     {indexQuestion + 1} / {questionsFiltered.length}

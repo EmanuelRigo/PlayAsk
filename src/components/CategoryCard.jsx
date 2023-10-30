@@ -10,10 +10,11 @@ export const CategoryCard = ({
     gradientColor
 }) =>
 
+
 {
     return (
     <Link to={`/category/${category}` } 
-     className={` tarjetas rounded-xl h-28 w-28 md:h-36 sm:w-36 md:h-40 md:w-40 p-4 flex flex-col justify-between basis-1/4 bg-slate-500 rounded-2x1 overflow-hidden   ${gradientColor} transition-all`}>
+     className={` tarjetas rounded-xl h-24 w-24 md:h-36 sm:w-36 md:h-40 md:w-40 p-4 flex flex-col justify-between basis-1/4 bg-slate-500 rounded-2x1 overflow-hidden   ${gradientColor} transition-all`}>
     <div className='p-0 md:p-5 flex justify-center items-center'> 
     <i className="svgimg text-stone-100 text-red-500">{src} </i>
      
