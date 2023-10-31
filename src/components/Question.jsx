@@ -56,7 +56,7 @@ export const Question = ({
                 onReset={onReset}
             />
 
-        ) : (<div className='flex flex-col justify-between bg-sky-800 text-white px-5 py-2 w-[350px] h-[400px] sm:py-5 mt-28 sm:mt-10 sm:w-[600px] sm:h-[500px] rounded-lg'>
+        ) : (<div className='glass container flex flex-col justify-between bg-sky-800 text-white px-5 py-2 w-[350px] h-[400px] sm:py-5 mt-28 sm:mt-10 sm:w-[600px] sm:h-[500px] rounded-lg'>
             <div className='flex justify-between'>
                 <span className='text.xl font-bold'>
                     {indexQuestion + 1} / {questionsFiltered.length}
@@ -70,7 +70,7 @@ export const Question = ({
                     </span>
                 </div>
             </div>
-            <button className='border px-5 py-2 rounded-lg font-bold transition-all hover:bg-yellow-500 hover:text-gray-900'
+            <button className='border-black px-5 py-2 rounded-lg font-bold bg-gray-400 bg-yellow-300 text-black hover:scale-105 transition-all'
                 onClick={onReset}>
                 Reiniciar
             </button>
@@ -79,12 +79,12 @@ export const Question = ({
             </div>
             <div className='grid grid-cols-2 gap-5'>
                 {answersRandom.map((answer, index) => (
-                    <button className={`border p-5 rounded-lg flex justify-center items-center hover:scale-105
+                    <button className={`border p-5 rounded-lg flex justify-center items-center hover:scale-105 transition-all
                 ${selectAnswerIndex !== null && 
                     index === selectAnswerIndex 
                     ? answer === filteredQuestion.correct_answer 
-                    ? 'bg-green-500' 
-                    : 'bg-red-500' 
+                    ? 'verdadero' 
+                    : 'falso' 
                     : ''
                         }`}
                         key={answer}
@@ -100,14 +100,14 @@ export const Question = ({
             </div>
 
             {indexQuestion + 1 === questionsFiltered.length ? (
-                <button className='border-2 border-yellow-600 text-yellow-600 rounded-md px-5 py-2 hover:bg-yellow-600 hover:text-black font-medium'
+                <button className='px-5 py-2 rounded-lg font-bold bg-gray-400 bg-yellow-300 text-black hover:scale-105 transition-all border-black'
                     onClick={() => {
                         setAnswered(false);
                         setActiveResults(true);
                     }}>
                     Finalizar </button>
             ) : (
-                <button className='border-2 border-yellow-600 text-yellow-600 rounded-md px-5 py-2 hover:bg-yellow-600 hover:text-black font-medium'
+                <button className='px-5 py-2 rounded-lg font-bold bg-gray-400 bg-yellow-300 text-black hover:scale-105 transition-all border-black'
                     onClick={onNextQuestion}>
                     Siguente pregunta</button>
             )}

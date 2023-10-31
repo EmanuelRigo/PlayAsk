@@ -10,7 +10,7 @@ export default {
       titulo: ['Pacifico']
     },
     extend: {
-    
+       
     },
     container : {
       center: true,

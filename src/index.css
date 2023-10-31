@@ -42,7 +42,6 @@ body{
     background: red;
     box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
     
-    
 }
 .tarjetas:nth-child(2):hover{
     background: goldenrod;
@@ -88,4 +87,15 @@ body{
     height: 100vh;
     justify-content: space-evenly;
 }
-
+.verdadero{
+    border: none;
+    color: black;
+    background: green;
+    box-shadow: 0 0 10px green, 0 0 40px green, 0 0 80px green;
+}
+.falso{
+    border: none;
+    color: black;
+    background: red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+}
