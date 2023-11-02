@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playpen+Sans:wght@100;400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -90,12 +91,15 @@ body{
 .verdadero{
     border: none;
     color: black;
-    background: green;
-    box-shadow: 0 0 10px green, 0 0 40px green, 0 0 80px green;
+    background: rgb(2, 250, 2);
+    box-shadow: 0 0 10px rgb(2, 250, 2), 0 0 40px rgb(2, 250, 2), 0 0 80px rgb(2, 250, 2);
 }
 .falso{
     border: none;
     color: black;
     background: red;
     box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+}
+Pelea{
+
 }

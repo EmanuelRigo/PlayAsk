@@ -1,3 +1,8 @@
+
+import { GiPunch,GiAmericanFootballBall,GiOutbackHat,GiGameConsole,GiGhost,GiChessKnight,GiSwitchWeapon } from "react-icons/gi";
+import { SiApplearcade } from "react-icons/si";
+
+
 import Pelea from "./assets/pelea.png";
 import Deportes from "./assets/deportes.png";
 import Aventura from "./assets/Aventura.png";
@@ -91,10 +96,10 @@ export const questions = [
   {
     id: 6,
     difficulty: "Medio",
-    question: "¿En qué año fue fundada la compañía Apple?",
+    question:  "¿En qué año se lanzó el juego de estrategia 'Age of Empires II'?",
     category: estrategias,
-    correct_answer: "1976",
-    incorrect_answers: ["1984", "1991", "1967"],
+    correct_answer: "1999",
+    incorrect_answers: ["2000", "1998", "2001"],
   },
   {
     id: 7,
@@ -244,10 +249,10 @@ export const questions = [
   {
     id: 22,
     difficulty: "Medio",
-    question: "¿Quién es el creador del sistema operativo Linux?",
+    question: "¿Cuál es el nombre del comandante en jefe de las fuerzas terran en StarCraft?",
     category: estrategias,
-    correct_answer: "Linus Torvalds",
-    incorrect_answers: ["Steve Jobs", "Bill Gates", "Mark Zuckerberg"],
+    correct_answer: "Jim Raynor",
+    incorrect_answers: ["Arcturus Mengsk", "Sarah Kerrigan", "Tychus Findlay"],
   },
   {
     id: 23,
@@ -332,55 +337,47 @@ export const questions = [
     id: 31,
     difficulty: "Fácil",
     category: estrategias,
-    question: "¿Qué significa la sigla HTML?",
-    correct_answer: "HyperText Markup Language",
-    incorrect_answers: [
-      "Hyperlinks and Text Markup Language",
-      "Home Tool Markup Language",
-      "Hyperlinking Text Markup Language",
-    ],
+    question: "¿En qué año se lanzó el videojuego 'Civilization VI'?",
+    correct_answer: "2016",
+    incorrect_answers:  ["2018", "2015", "2017"],
   },
   {
     id: 32,
     difficulty: "Fácil",
     category: estrategias,
-    question: "¿Cuál es el navegador web más utilizado en el mundo?",
-    correct_answer: "Google Chrome",
-    incorrect_answers: ["Safari", "Firefox", "Internet Explorer"],
+    question: "¿Cuál es el juego de acción en el que juegas como un superhéroe arácnido?",
+    correct_answer: "Spider-Man (2018)",
+    incorrect_answers: [
+      "Batman: Arkham Knight",
+      "Injustice 2",
+      "Marvel's Avengers"
+      ],
   },
+
   {
     id: 33,
     difficulty: "Fácil",
     category: estrategias,
-    question:
-      "¿Qué lenguaje de programación es más utilizado para el desarrollo web?",
-    correct_answer: "JavaScript",
-    incorrect_answers: ["Python", "Java", "C++"],
+    question: "¿Qué videojuego de estrategia se basa en la mitología griega y permite a los jugadores controlar a los dioses?",
+    correct_answer: "Age of Mythology",
+    incorrect_answers:  ["Warcraft III: Reign of Chaos", "Rise of Nations", "Europa Universalis IV"],
   },
   {
     id: 34,
     difficulty: "Medio",
     category: estrategias,
-    question: "¿Qué es un servidor web?",
-    correct_answer: "Un programa que recibe y procesa solicitudes HTTP",
-    incorrect_answers: [
-      "Un programa que envía correos electrónicos",
-      "Un programa que protege la privacidad de los usuarios en línea",
-      "Un programa que realiza operaciones matemáticas complejas",
-    ],
+    question: "¿Cuál es el juego de estrategia en tiempo real que se centra en la Segunda Guerra Mundial y permite a los jugadores controlar diferentes naciones?",
+    correct_answer: "Hearts of Iron IV",
+    incorrect_answers: ["Total War: Shogun 2", "Steel Division: Normandy 44", "Command & Conquer: Red Alert"],
   },
   {
     id: 35,
     difficulty: "Medio",
     category: estrategias,
-    question: "¿Qué es un ataque de phishing?",
+    question: "¿Qué juego de estrategia tiene una expansión llamada 'The War Chiefs'?",
     correct_answer:
-      "Un intento de obtener información confidencial a través de un correo electrónico falso",
-    incorrect_answers: [
-      "Un virus que daña los archivos del ordenador",
-      "Un tipo de ataque DDoS",
-      "Un intento de secuestrar el tráfico de internet",
-    ],
+     "Age of Empires III",
+    incorrect_answers: ["Rise of Nations", "Total War: Shogun 2", "StarCraft II: Wings of Liberty"],
   },
   {
     id: 36,
@@ -398,26 +395,18 @@ export const questions = [
     id: 37,
     difficulty: "Difícil",
     category: estrategias,
-    question: "¿Qué es un algoritmo de cifrado asimétrico?",
-    correct_answer: "Un método de cifrado que utiliza dos claves diferentes",
-    incorrect_answers: [
-      "Un método de cifrado que utiliza la misma clave para cifrar y descifrar",
-      "Un método de cifrado que no utiliza claves",
-      "Un método de cifrado que solo se utiliza en aplicaciones militares",
-    ],
+    question:  "¿Cuál es el título del juego de estrategia en tiempo real lanzado en 2010, desarrollado por Relic Entertainment?",
+    correct_answer:"Company of Heroes",
+    incorrect_answers: ["Rise of Nations", "Sins of a Solar Empire", "Warhammer 40,000: Dawn of War II"],
   },
   {
     id: 38,
     difficulty: "Difícil",
     category: estrategias,
-    question: "¿Qué es una red privada virtual (VPN)?",
+    question: "¿Qué juego de estrategia se desarrolla en la Antigua Roma?",
     correct_answer:
-      "Una conexión segura a una red privada a través de internet",
-    incorrect_answers: [
-      "Una red de computadoras en una organización",
-      "Una red de computadoras conectadas a internet",
-      "Una red de computadoras que solo utiliza tecnología inalámbrica",
-    ],
+     "Total War: Rome II",
+    incorrect_answers: ["Age of Empires: Rise of Rome", "Civilization IV", "Imperivm: Great Battles of Rome"],
   },
   {
     id: 39,
@@ -849,247 +838,198 @@ export const questions = [
   {
     id: 83,
     difficulty: "Fácil",
-    question: '¿Qué es el acrónimo "CPU" en inglés?',
+    question: "¿Cuál es el nombre de la heroína principal en 'Heroes of Might and Magic III'?",
     category: estrategias,
-    correct_answer: "Central Processing Unit",
-    incorrect_answers: [
-      "Computer Personal Unit",
-      "Central Personal Unit",
-      "Computer Processing Unit",
-    ],
+    correct_answer: "Catherine Ironfist",
+    incorrect_answers: ["Sandro", "Gelu", "Solmyr"],
   },
   {
     id: 84,
     difficulty: "Medio",
     question:
-      "¿Cuál es el nombre de la primera computadora electrónica digital?",
+      "¿Qué raza de personajes es conocida por su énfasis en la astucia y la diplomacia en 'Stellaris'?",
     category: estrategias,
-    correct_answer: "ENIAC",
-    incorrect_answers: ["UNIVAC", "COLOSSUS", "EDSAC"],
+    correct_answer: "Espacio Élfico",
+    incorrect_answers: ["Humanos", "Robots", "Hive Mind"],
   },
-  ///////////
   {
     id: 85,
     difficulty: "Medio",
     question:
-      "¿Cuál es el nombre de la primera computadora electrónica digital?",
+      "¿Cuál es el nombre del protagonista en el juego de estrategia 'Command & Conquer: Red Alert'?",
     category: estrategias,
-    correct_answer: "ENIAC",
-    incorrect_answers: ["UNIVAC", "COLOSSUS", "EDSAC"],
+    correct_answer: "Michael Biehn",
+    incorrect_answers:  ["Kane", "Yuri", "Vladimir Kosygin"],
   },
   {
     id: 86,
     difficulty: "Medio",
     question:
-      "¿Cuál es el nombre de la primera computadora electrónica digital?",
+      "¿En qué plataforma se lanzó originalmente el juego 'XCOM: Enemy Unknown'?",
     category: estrategias,
-    correct_answer: "ENIAC",
-    incorrect_answers: ["UNIVAC", "COLOSSUS", "EDSAC"],
+    correct_answer: "PC",
+    incorrect_answers: ["PlayStation 3", "Xbox 360", "Nintendo 3DS"],
   },
   {
     id: 87,
     difficulty: "Medio",
     question:
-      "¿Cuál es el nombre de la primera computadora electrónica digital?",
+      "¿Cuál es el nombre del villano principal en la serie de juegos 'Warcraft'?",
     category: estrategias,
-    correct_answer: "ENIAC",
-    incorrect_answers: ["UNIVAC", "COLOSSUS", "EDSAC"],
+    correct_answer: "Arthas Menethil",
+    incorrect_answers: ["Gul'dan", "Illidan Stormrage", "Thrall"],
   },
   {
     id: 88,
     difficulty: "Medio",
     question:
-      "¿Cuál es el nombre de la primera computadora electrónica digital?",
+      "¿Qué juego de estrategia es conocido por su 'arte de guerra'? ",
     category: estrategias,
-    correct_answer: "ENIAC",
-    incorrect_answers: ["UNIVAC", "COLOSSUS", "EDSAC"],
+    correct_answer: "Total War: Three Kingdoms",
+    incorrect_answers: ["Age of Empires III", "Civilization V", "Stellaris"],
   },
   {
     id: 89,
     difficulty: "Medio",
-    question:
-      "¿Cuál es el nombre de la primera computadora electrónica digital?",
+    question:"¿En qué período histórico se desarrolla el juego 'Civilization VI'?",
     category: estrategias,
-    correct_answer: "ENIAC",
-    incorrect_answers: ["UNIVAC", "COLOSSUS", "EDSAC"],
+    correct_answer: "Histórico/Futurista",
+    incorrect_answers: ["Antigüedad", "Medieval", "Moderno"],
+  },
+  {
+    id: 90,
+    difficulty: "Fácil",
+    question: "¿En qué videojuego de acción controlas a un personaje llamado Master Chief?",
+    category: accion,
+    correct_answer: "Halo: Combat Evolved",
+    incorrect_answers:  [
+       		"Call of Duty: Modern Warfare",
+      		"Destiny",
+       		"Gears of War"
+       	  ],
+  },
+  {
+    id: 91,
+    difficulty: "Fácil",
+    question: "¿Cuál es el título del juego de acción en el que te conviertes en un cazador de monstruos profesional?",
+    category: accion,
+    correct_answer: "Monster Hunter: World",
+    incorrect_answers:  [
+      "Dark Souls III",
+      "Bloodborne",
+      "The Witcher 3: Wild Hunt"
+      ],
+  },
+  {
+    id: 92,
+    difficulty: "Fácil",
+    question: "¿En qué videojuego de acción luchas contra los Combine, una raza alienígena opresora?",
+    category: accion,
+    correct_answer: "Half-Life 2",
+    incorrect_answers:  [
+      "Bioshock Infinite",
+      "Prey",
+      "Crysis"
+      ],
+  },
+  {
+    id: 93,
+    difficulty: "Fácil",
+    question: "¿Cuál es el juego de acción en tercera persona en el que controlas a un cazador de tesoros llamado Nathan Drake?",
+    category: accion,
+    correct_answer: "Uncharted 4: A Thief's End",
+    incorrect_answers:  [
+      "Assassin's Creed: Black Flag",
+      "The Last of Us",
+      "Tomb Raider"
+      ],
+  },
+  {
+    id: 94,
+    difficulty: "Fácil",
+    question: "¿En qué videojuego de acción te enfrentas a demonios en un mundo infernal?",
+    category: accion,
+    correct_answer: "Doom (2016)",
+    incorrect_answers:  [
+      "Dark Souls",
+      "Dead Space",
+      "Resident Evil 7: Biohazard"
+      ],
+  },
+  {
+    id: 95,
+    difficulty: "Fácil",
+    question: "¿Cuál es el título del juego de acción en el que asumes el papel de un agente secreto en un mundo abierto de espionaje?",
+    category: accion,
+    correct_answer: "Deus Ex: Human Revolution",
+    incorrect_answers:  [
+      "Watch Dogs",
+      "Hitman: Absolution",
+      "Metal Gear Solid V: The Phantom Pain"
+      ],
+  },
+  {
+    id: 96,
+    difficulty: "Fácil",
+    question: "¿En qué juego de acción eres un asesino a sueldo llamado Agent 47?",
+    category: accion,
+    correct_answer: "Hitman 3",
+    incorrect_answers:  [
+      "Assassin's Creed Valhalla",
+      "Mafia: Definitive Edition",
+      "Red Dead Redemption 2"
+      ],
+  },
+  {
+    id: 97,
+    difficulty: "Fácil",
+    question: "¿Cuál es el título del juego de acción en el que te conviertes en un ninja cibernético en un mundo futurista?",
+    category: accion,
+    correct_answer: "Cyberpunk 2077",
+    incorrect_answers: [
+      "Deus Ex: Mankind Divided",
+      "Bioshock Infinite",
+      "Dishonored 2"
+      ],
+  },
+  {
+    id: 98,
+    difficulty: "Fácil",
+    question: "¿En qué videojuego de acción te enfrentas a monstruos gigantes conocidos como Colosos para salvar a una princesa?",
+    category: accion,
+    correct_answer:  "Shadow of the Colossus",
+    incorrect_answers: [
+      "The Legend of Zelda: Breath of the Wild",
+      "Dark Souls III",
+      "Bloodborne"
+      ],
+  },
+  {
+    id: 99,
+    difficulty: "Fácil",
+    question: "¿Cuál es el título del juego de acción en el que encarnas a un exmarine convertido en caza recompensas en un mundo postapocalíptico?",
+    category: accion,
+    correct_answer:  "Mad Max",
+    incorrect_answers: [
+      "Fallout 4",
+      "Rage 2",
+      "The Last of Us Part II"
+      ],
+  },
+  {
+    id: 100,
+    difficulty: "Fácil",
+    question: "¿En qué videojuego de acción exploras un mundo lleno de dragones y magia?",
+    category: accion,
+    correct_answer: "The Elder Scrolls V: Skyrim",
+    incorrect_answers: [
+      "Dragon Age: Inquisition",
+      "Dark Souls",
+      "The Witcher 3: Wild Hunt"
+      ],
   },
 ];
 
 
-// estrategias
-// {
-// 	"preguntas": [
-// 	  {
-// 		"question": "¿En qué año se lanzó el juego de estrategia 'Age of Empires II'?",
-// 		"correct_answer": "1999",
-// 		"incorrect_answers": ["2000", "1998", "2001"]
-// 	  },
-// 	  {
-// 		"question": "¿Cuál es el nombre del comandante en jefe de las fuerzas terran en StarCraft?",
-// 		"correct_answer": "Jim Raynor",
-// 		"incorrect_answers": ["Arcturus Mengsk", "Sarah Kerrigan", "Tychus Findlay"]
-// 	  },
-// 	  {
-// 		"question": "¿En qué período histórico se desarrolla el juego 'Civilization VI'?",
-// 		"correct_answer": "Histórico/Futurista",
-// 		"incorrect_answers": ["Antigüedad", "Medieval", "Moderno"]
-// 	  },
-// 	  {
-// 		"question": "¿Qué juego de estrategia es conocido por su 'arte de guerra'? ",
-// 		"correct_answer": "Total War: Three Kingdoms",
-// 		"incorrect_answers": ["Age of Empires III", "Civilization V", "Stellaris"]
-// 	  },
-// 	  {
-// 		"question": "¿Cuál es el nombre del villano principal en la serie de juegos 'Warcraft'?",
-// 		"correct_answer": "Arthas Menethil",
-// 		"incorrect_answers": ["Gul'dan", "Illidan Stormrage", "Thrall"]
-// 	  },
-// 	  {
-// 		"question": "¿En qué plataforma se lanzó originalmente el juego 'XCOM: Enemy Unknown'?",
-// 		"correct_answer": "PC",
-// 		"incorrect_answers": ["PlayStation 3", "Xbox 360", "Nintendo 3DS"]
-// 	  },
-// 	  {
-// 		"question": "¿Cuál es el nombre del protagonista en el juego de estrategia 'Command & Conquer: Red Alert'?",
-// 		"correct_answer": "Michael Biehn",
-// 		"incorrect_answers": ["Kane", "Yuri", "Vladimir Kosygin"]
-// 	  },
-// 	  {
-// 		"question": "¿Qué raza de personajes es conocida por su énfasis en la astucia y la diplomacia en 'Stellaris'?",
-// 		"correct_answer": "Espacio Élfico",
-// 		"incorrect_answers": ["Humanos", "Robots", "Hive Mind"]
-// 	  },
-// 	  {
-// 		"question": "¿Cuál es el nombre de la heroína principal en 'Heroes of Might and Magic III'?",
-// 		"correct_answer": "Catherine Ironfist",
-// 		"incorrect_answers": ["Sandro", "Gelu", "Solmyr"]
-// 	  },
-// 	  {
-// 		"question": "¿Qué juego de estrategia se desarrolla en la Antigua Roma?",
-// 		"correct_answer": "Total War: Rome II",
-// 		"incorrect_answers": ["Age of Empires: Rise of Rome", "Civilization IV", "Imperivm: Great Battles of Rome"]
-// 	  },
-// 	  {
-// 		"question": "¿Cuál es el título del juego de estrategia en tiempo real lanzado en 2010, desarrollado por Relic Entertainment?",
-// 		"correct_answer": "Company of Heroes",
-// 		"incorrect_answers": ["Rise of Nations", "Sins of a Solar Empire", "Warhammer 40,000: Dawn of War II"]
-// 	  },
-// 	  {
-// 		"question": "¿Qué juego de estrategia tiene una expansión llamada 'The War Chiefs'?",
-// 		"correct_answer": "Age of Empires III",
-// 		"incorrect_answers": ["Rise of Nations", "Total War: Shogun 2", "StarCraft II: Wings of Liberty"]
-// 	  }
-// 	]
-// //   }
-//   accion
-// [
-// 	{
-// 	  "question": "¿En qué videojuego de acción controlas a un personaje llamado Master Chief?",
-// 	  "correct_answer": "Halo: Combat Evolved",
-// 	  "incorrect_answers": [
-// 		"Call of Duty: Modern Warfare",
-// 		"Destiny",
-// 		"Gears of War"
-// 	  ]
-// 	},
-// 	{
-// 	  "question": "¿Cuál es el título del juego de acción en el que te conviertes en un cazador de monstruos profesional?",
-// 	  "correct_answer": "Monster Hunter: World",
-// 	  "incorrect_answers": [
-// 		"Dark Souls III",
-// 		"Bloodborne",
-// 		"The Witcher 3: Wild Hunt"
-// 	  ]
-// 	},
-// 	{
-// 	  "question": "¿En qué videojuego de acción luchas contra los Combine, una raza alienígena opresora?",
-// 	  "correct_answer": "Half-Life 2",
-// 	  "incorrect_answers": [
-// 		"Bioshock Infinite",
-// 		"Prey",
-// 		"Crysis"
-// 	  ]
-// 	},
-// 	{
-// 	  "question": "¿Cuál es el juego de acción en tercera persona en el que controlas a un cazador de tesoros llamado Nathan Drake?",
-// 	  "correct_answer": "Uncharted 4: A Thief's End",
-// 	  "incorrect_answers": [
-// 		"Assassin's Creed: Black Flag",
-// 		"The Last of Us",
-// 		"Tomb Raider"
-// 	  ]
-// 	},
-// 	{
-// 	  "question": "¿En qué videojuego de acción te enfrentas a demonios en un mundo infernal?",
-// 	  "correct_answer": "Doom (2016)",
-// 	  "incorrect_answers": [
-// 		"Dark Souls",
-// 		"Dead Space",
-// 		"Resident Evil 7: Biohazard"
-// 	  ]
-// 	},
-// 	{
-// 	  "question": "¿Cuál es el título del juego de acción en el que asumes el papel de un agente secreto en un mundo abierto de espionaje?",
-// 	  "correct_answer": "Deus Ex: Human Revolution",
-// 	  "incorrect_answers": [
-// 		"Watch Dogs",
-// 		"Hitman: Absolution",
-// 		"Metal Gear Solid V: The Phantom Pain"
-// 	  ]
-// 	},
-// 	{
-// 	  "question": "¿En qué juego de acción eres un asesino a sueldo llamado Agent 47?",
-// 	  "correct_answer": "Hitman 3",
-// 	  "incorrect_answers": [
-// 		"Assassin's Creed Valhalla",
-// 		"Mafia: Definitive Edition",
-// 		"Red Dead Redemption 2"
-// 	  ]
-// 	},
-// 	{
-// 	  "question": "¿Cuál es el título del juego de acción en el que te conviertes en un ninja cibernético en un mundo futurista?",
-// 	  "correct_answer": "Cyberpunk 2077",
-// 	  "incorrect_answers": [
-// 		"Deus Ex: Mankind Divided",
-// 		"Bioshock Infinite",
-// 		"Dishonored 2"
-// 	  ]
-// 	},
-// 	{
-// 	  "question": "¿En qué videojuego de acción te enfrentas a monstruos gigantes conocidos como Colosos para salvar a una princesa?",
-// 	  "correct_answer": "Shadow of the Colossus",
-// 	  "incorrect_answers": [
-// 		"The Legend of Zelda: Breath of the Wild",
-// 		"Dark Souls III",
-// 		"Bloodborne"
-// 	  ]
-// 	},
-// 	{
-// 	  "question": "¿Cuál es el título del juego de acción en el que encarnas a un exmarine convertido en caza recompensas en un mundo postapocalíptico?",
-// 	  "correct_answer": "Mad Max",
-// 	  "incorrect_answers": [
-// 		"Fallout 4",
-// 		"Rage 2",
-// 		"The Last of Us Part II"
-// 	  ]
-// 	},
-// 	{
-// 	  "question": "¿En qué videojuego de acción exploras un mundo lleno de dragones y magia?",
-// 	  "correct_answer": "The Elder Scrolls V: Skyrim",
-// 	  "incorrect_answers": [
-// 		"Dragon Age: Inquisition",
-// 		"Dark Souls",
-// 		"The Witcher 3: Wild Hunt"
-// 	  ]
-// 	},
-// 	{
-// 	  "question": "¿Cuál es el juego de acción en el que juegas como un superhéroe arácnido?",
-// 	  "correct_answer": "Spider-Man (2018)",
-// 	  "incorrect_answers": [
-// 		"Batman: Arkham Knight",
-// 		"Injustice 2",
-// 		"Marvel's Avengers"
-// 	  ]
-// 	}
-//   ]
+
   

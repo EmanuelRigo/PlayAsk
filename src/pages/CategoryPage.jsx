@@ -3,6 +3,9 @@ import { useParams } from "react-router-dom";
 import { Question } from "../components/Question";
 import { questions, imgs } from "../data";
 
+
+
+
 const shuffleArray = array => {
     const newArray = array.sort(() => Math.random() - 0.5);
     return newArray.slice(0, 5);
@@ -56,7 +59,7 @@ export const CategoryPage = () => {
                         <img
                             src= {imgCategory}
                             alt={category}
-                            className='w-72'
+                            className='w-72 png'
                         />
                     </div>
                 </div>

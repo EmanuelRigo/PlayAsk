@@ -5,16 +5,16 @@ import { CategoryCard } from './CategoryCard';
 import { GiPunch,GiAmericanFootballBall,GiOutbackHat,GiGameConsole,GiGhost,GiChessKnight,GiSwitchWeapon } from "react-icons/gi";
 import { SiApplearcade } from "react-icons/si";
 
-const [
-    imgPelea,
-    imgDeportes,
-    imgAventura,
-    imgClasicos,
-    imgArcade,
-    imgTerror,
-    imgEstrategias,
-    imgAccion
-] = imgs
+// const [
+//     imgPelea,
+//     imgDeportes,
+//     imgAventura,
+//     imgClasicos,
+//     imgArcade,
+//     imgTerror,
+//     imgEstrategias,
+//     imgAccion
+// ] = imgs
 
 export const CategoryList = () => {
 
