@@ -2,11 +2,11 @@ import React from "react";
 
 export const Results = ({ score, questionsFiltered, onReset }) => {
   return (
-    <div className="glass container flex flex-col justify-evenly items-center shadow-xl rounded-lg gap-5    w-[330px] h-[400px] sm:w-[600px] sm:h-[500px] ">
+    <div className="glass container flex flex-col justify-evenly items-center shadow-xl rounded-lg gap-5  w-[330px] h-[400px] sm:w-[600px] sm:h-[500px] ">
       <h1 className="text-4xl font-bold text-white"> Resultados</h1>
       <div className="flex flex-col gap-5 text-center text-lg font-bold text-white">
         <span>Acertaste</span>
-        <span className="font-black bg-gradient-to-r from-yellow-500 to-green-500 bg-clip-text text-transparent text-6xl animate-pulse">
+        <span className="font-black neon bg-gradient-to-r from-yellow-500 to-green-500 bg-clip-text text-transparent text-6xl animate-pulse">
           {((score / questionsFiltered.length) * 100).toFixed(0)}%
         </span>
         de las preguntas ({score} de {questionsFiltered.length})

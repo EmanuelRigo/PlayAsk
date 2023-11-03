@@ -4,6 +4,10 @@ import { Question } from "../components/Question";
 import { questions, imgs } from "../data";
 
 
+import { GiPunch as Pelea,GiAmericanFootballBall as Deportes,GiOutbackHat,GiGameConsole,GiGhost,GiChessKnight,GiSwitchWeapon } from "react-icons/gi";
+import { SiApplearcade } from "react-icons/si";
+
+
 
 
 const shuffleArray = array => {
@@ -15,11 +19,49 @@ export const CategoryPage = () => {
 
     const { category } = useParams()
 
+    console.log(category)
+
+
+
+    ///////funcion switch
+    let componente
+
+    switch(category) {
+        case 'Pelea' : componente = <Pelea></Pelea>
+        break
+        case 'Deportes' : componente = <Deportes></Deportes>
+        break
+    }
     
+    console.log(componente)
+
+    ///////switch
+
+    function CustomTag({ category }) {
+        return <>{`<${category}>`}</>;
+      }
+
+    console.log(imgs)
 
     const [imgCategory] = imgs.filter(
 		img => img === `/src/assets/${category.toLowerCase()}.png`
+        
 	);
+
+    console.log (imgCategory)
+
+    function capitalizarPrimeraLetra(cadena) {
+        // Verificar si la cadena está vacía o es nula
+        if (!cadena) return cadena;
+      
+        // Poner la primera letra en mayúscula y concatenar el resto de la cadena
+        return cadena.charAt(0).toUpperCase() + cadena.slice(1);
+      }
+
+   
+
+
+
 
 
 
@@ -55,13 +97,17 @@ export const CategoryPage = () => {
                         {category}
                     </h1>
 
-                    <div className='flex justify-center items-center'>
-                        <img
+                    <div className='flex justify-center items-center ${gradientColor} '>
+                 {/*        <img
                             src= {imgCategory}
                             alt={category}
-                            className='w-72 png'
-                        />
+                            className='w-72 png '
+                        /> */}
                     </div>
+                        
+              <div>{componente}</div>
+                    
+
                 </div>
 
                 <button
@@ -70,6 +116,7 @@ export const CategoryPage = () => {
                 >
                     Iniciar Quiz
                 </button>
+              
               
             </>
             )}

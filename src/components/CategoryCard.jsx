@@ -12,6 +12,7 @@ export const CategoryCard = ({
 
 
 {
+    console.log(src)
     return (
     <Link to={`/category/${category}` } 
      className={` tarjetas rounded-xl h-24 w-24 md:h-36 sm:w-36 md:h-40 md:w-40 p-4 flex flex-col justify-between basis-1/4 bg-slate-500 rounded-2x1 overflow-hidden   ${gradientColor} transition-all`}>

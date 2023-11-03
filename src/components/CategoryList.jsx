@@ -1,20 +1,11 @@
 import { Link } from 'react-router-dom';
 import { imgs, categories } from '../data';
 import { CategoryCard } from './CategoryCard';
+
 ////
 import { GiPunch,GiAmericanFootballBall,GiOutbackHat,GiGameConsole,GiGhost,GiChessKnight,GiSwitchWeapon } from "react-icons/gi";
 import { SiApplearcade } from "react-icons/si";
 
-// const [
-//     imgPelea,
-//     imgDeportes,
-//     imgAventura,
-//     imgClasicos,
-//     imgArcade,
-//     imgTerror,
-//     imgEstrategias,
-//     imgAccion
-// ] = imgs
 
 export const CategoryList = () => {
 
@@ -22,15 +13,16 @@ export const CategoryList = () => {
         <div className='grid grid-cols-2 gap-5 sm:grid-cols-4 '>
               
             
-            <CategoryCard className="sombra"
+            <CategoryCard 
             
-
+                   
                 category={categories.pelea}
-            
+                
+                    
                 src={<GiPunch></GiPunch>}
                 alt={` categoría ${categories.pelea}`}
                 // gradientColor="bg-violet-600"
-               
+              
             />
              
 

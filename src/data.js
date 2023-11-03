@@ -1,9 +1,4 @@
-
-import { GiPunch,GiAmericanFootballBall,GiOutbackHat,GiGameConsole,GiGhost,GiChessKnight,GiSwitchWeapon } from "react-icons/gi";
-import { SiApplearcade } from "react-icons/si";
-
-
-import Pelea from "./assets/pelea.png";
+//import Pelea from "./assets/pelea.png";
 import Deportes from "./assets/deportes.png";
 import Aventura from "./assets/Aventura.png";
 import Clasicos from "./assets/Clasicos.png";
@@ -11,6 +6,10 @@ import Arcade from "./assets/arcade.png";
 import Terror from "./assets/terror.png";
 import Estrategias from "./assets/estrategias.png";
 import Accion from "./assets/accion.png";
+import { GiPunch as Pelea } from "react-icons/gi";
+
+
+
 
 export const imgs = [
   Pelea,
@@ -21,6 +20,7 @@ export const imgs = [
   Terror,
   Estrategias,
   Accion,
+
 ];
 
 export const categories = {

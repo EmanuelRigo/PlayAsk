@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playpen+Sans:wght@100;400;700&display=swap');
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -29,6 +30,10 @@ body{
 .titulo:hover{
     color: #ffffff;
     filter:drop-shadow(0 0 10px #ffffff)
+}
+.neon{
+    color: linear-gradient(to right, #fcd600, #00ff0d);
+    filter: drop-shadow(2px -4px 4px #08fa008c);
 }
 
 .tarjetas {
@@ -100,6 +105,6 @@ body{
     background: red;
     box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
-Pelea{
-
+.png{
+    filter: invert(86%) sepia(92%) saturate(624%) hue-rotate(292deg) brightness(91%) contrast(87%);
 }
