@@ -4,14 +4,14 @@ import { Question } from "../components/Question";
 import { questions, imgs } from "../data";
 
 
-import { GiPunch as Pelea,GiAmericanFootballBall as Deportes,GiOutbackHat,GiGameConsole,GiGhost,GiChessKnight,GiSwitchWeapon } from "react-icons/gi";
-import { SiApplearcade } from "react-icons/si";
+import { GiPunch as Pelea,GiAmericanFootballBall as Deportes,GiOutbackHat as Aventura ,GiGameConsole as Clasicos ,GiGhost as Terror,GiChessKnight as Estrategias ,GiSwitchWeapon as Accion } from "react-icons/gi";
+import { SiApplearcade as Arcade } from "react-icons/si";
 
 
 
 
 const shuffleArray = array => {
-    const newArray = array.sort(() => Math.random() - 0.5);
+    const newArray = array.sort(() => Math.random() - 0.8);
     return newArray.slice(0, 5);
 };
 
@@ -27,9 +27,21 @@ export const CategoryPage = () => {
     let componente
 
     switch(category) {
-        case 'Pelea' : componente = <Pelea></Pelea>
+        case 'Pelea' : componente = <Pelea className="rojo"></Pelea> 
         break
-        case 'Deportes' : componente = <Deportes></Deportes>
+        case 'Deportes' : componente = <Deportes className="amarillo"></Deportes>
+        break
+        case 'Aventura' : componente = <Aventura className="naranja"></Aventura>
+        break
+        case 'Clasicos' : componente = <Clasicos className="aqua"></Clasicos>
+        break
+        case 'Arcade' : componente = <Arcade className="fucsia"></Arcade>
+        break
+        case 'Terror' : componente = <Terror className="naranja-oscuro"></Terror>
+        break
+        case 'Estrategias' : componente = <Estrategias className="lima"></Estrategias>
+        break
+        case 'Accion' : componente = <Accion className="violeta"></Accion>
         break
     }
     
@@ -98,14 +110,10 @@ export const CategoryPage = () => {
                     </h1>
 
                     <div className='flex justify-center items-center ${gradientColor} '>
-                 {/*        <img
-                            src= {imgCategory}
-                            alt={category}
-                            className='w-72 png '
-                        /> */}
+                
                     </div>
                         
-              <div>{componente}</div>
+              <div className="icono">{componente}</div>
                     
 
                 </div>

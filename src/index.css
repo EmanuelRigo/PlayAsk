@@ -105,6 +105,38 @@ body{
     background: red;
     box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
-.png{
-    filter: invert(86%) sepia(92%) saturate(624%) hue-rotate(292deg) brightness(91%) contrast(87%);
+.icono{
+    font-size: 15em;
+}
+
+.rojo {
+    color: red;
+}
+
+.amarillo {
+    color: goldenrod;
+}
+
+.naranja{
+    color: orange;
+}
+
+.aqua{
+    color: aqua;
+}
+
+.fucsia{
+    color: fuchsia;
+}
+
+.naranja-oscuro{
+    color: orangered;
+}
+
+.lima{
+    color: lime;
+}
+
+.violeta{
+    color: mediumvioletred
 }

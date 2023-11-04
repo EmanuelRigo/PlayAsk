@@ -2,7 +2,7 @@ import React from "react";
 
 export const Results = ({ score, questionsFiltered, onReset }) => {
   return (
-    <div className="glass container flex flex-col justify-evenly items-center shadow-xl rounded-lg gap-5  w-[330px] h-[400px] sm:w-[600px] sm:h-[500px] ">
+    <div className="glass container flex flex-col justify-evenly items-center shadow-xl rounded-lg gap-5  w-[330px] h-[480px] sm:w-[600px] sm:h-[500px] ">
       <h1 className="text-4xl font-bold text-white"> Resultados</h1>
       <div className="flex flex-col gap-5 text-center text-lg font-bold text-white">
         <span>Acertaste</span>
