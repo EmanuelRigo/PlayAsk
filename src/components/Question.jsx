@@ -55,17 +55,17 @@ export const Question = ({
                 score={score}
                 onReset={onReset}
             />
-//  justify-between bg-sky-800 text-white px-5 py-2 w-[330px] h-[400px] sm:py-5 mt-28 sm:mt-10 sm:w-[600px] sm:h-[500px] rounded-lg
+
         ) : (<div className='glass container flex flex-col justify-evenly px-5 py-3 shadow-xl rounded-lg gap-5  w-[330px] h-[480px] sm:w-[600px] sm:h-[500px] "'>
             <div className='flex justify-between'>
-                <span className='text.xl font-bold'>
+                <span className='text.xl text-white font-bold'>
                     {indexQuestion + 1} / {questionsFiltered.length}
                 </span>
                 <div>
-                    <span className='font-semibold'>
+                    <span className='font-semibold text-white'>
                         Dificultad:
                     </span>
-                    <span className='font-bold'>
+                    <span className='font-bold text-white'>
                         {filteredQuestion.difficulty}
                     </span>
                 </div>
@@ -75,7 +75,7 @@ export const Question = ({
                 Reiniciar
             </button>
             <div>
-                <h1 className='font-bold'>{filteredQuestion.question}</h1>
+                <h1 className='font-bold text-white'>{filteredQuestion.question}</h1>
             </div>
             <div className='grid grid-cols-2 gap-5'>
                 {answersRandom.map((answer, index) => (
@@ -91,7 +91,7 @@ export const Question = ({
                         onClick={() => checkAnswer(answer, index)}
                         disabled={answered && selectAnswerIndex !== index}
                        >
-                        <p className='font-medium text-center text-sm'>
+                        <p className='font-medium text-white text-center text-sm'>
                             {answer}
                         </p>
                     </button>

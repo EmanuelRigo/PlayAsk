@@ -21,7 +21,7 @@ export const CategoryCard = ({
      
     </div>
 
-    <h1 className=' svgimg text-center font-rale text-2x1 font-semibold text-stone-100 bg-opaciti-60 p-0 px-0 md:p-3 md:px-5'>
+    <h1 className=' svgimg text-center font-rale text-xs sm:text-lg mt-2 mx-auto font-semibold text-stone-100 bg-opaciti-60 p-0 px-0 '>
         {category}
     </h1>
 </Link>
