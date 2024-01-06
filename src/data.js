@@ -4,7 +4,7 @@ import { GiPunch as Pelea } from "react-icons/gi";
 
 
 
-
+/* 
 export const imgs = [
   Pelea,
   Deportes,
@@ -15,7 +15,7 @@ export const imgs = [
   Estrategias,
   Accion,
 
-];
+]; */
 
 export const categories = {
   arcade: "Arcade",
