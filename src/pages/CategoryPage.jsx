@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Question } from "../components/Question";
-import { questions /* imgs  */ } from "../data";
+import { questions, imgs } from "../data";
 
 import {
   GiPunch as Pelea,
