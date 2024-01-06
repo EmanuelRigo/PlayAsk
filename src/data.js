@@ -1,11 +1,5 @@
 //import Pelea from "./assets/pelea.png";
-import Deportes from "./assets/deportes.png";
-import Aventura from "./assets/Aventura.png";
-import Clasicos from "./assets/Clasicos.png";
-import Arcade from "./assets/arcade.png";
-import Terror from "./assets/terror.png";
-import Estrategias from "./assets/estrategias.png";
-import Accion from "./assets/accion.png";
+
 import { GiPunch as Pelea } from "react-icons/gi";
 
 

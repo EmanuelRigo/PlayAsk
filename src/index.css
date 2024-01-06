@@ -11,17 +11,20 @@ i svg {
 }
 .svgimg{
     color: rgba(207, 207, 207, 0.7);
-    filter:drop-shadow(3px 3px 5px #1a0d0d)}
+  }
 
 .tarjetas:hover .svgimg{
-    color: white;
+    color: white; 
+    filter:drop-shadow(0 0 5px #fff) ;
+
 }
+
 
 body{
     margin: 0 25px 0 25px;
     min-height: 100vh;
-    background: url('./assets/fondo.avif') ;
-    background-size: cover;
+    background: url('./assets/wave2.svg') ; 
+     background-size: cover; 
    
 }
 .titulo{
