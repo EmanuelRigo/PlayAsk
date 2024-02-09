@@ -8,9 +8,6 @@ import Estrategias from "./assets/estrategias.png";
 import Accion from "./assets/accion.png";
 /* import { GiPunch as Pelea } from "react-icons/gi"; */
 
-
-
-
 export const imgs = [
   Pelea,
   Deportes,
@@ -20,7 +17,6 @@ export const imgs = [
   Terror,
   Estrategias,
   Accion,
-
 ];
 
 export const categories = {
@@ -52,16 +48,17 @@ export const questions = [
     question: "¿Cuál fue el primer videojuego de arcade lanzado en 1972?",
     category: arcade,
     correct_answer: "Pong",
-    incorrect_answers:  ["Space Invaders", "Donkey Kong", "Pac-Man"],
+    incorrect_answers: ["Space Invaders", "Donkey Kong", "Pac-Man"],
   },
-  
+
   {
     id: 2,
     difficulty: "Fácil",
-    question: "¿Cuál es el nombre del protagonista de la serie de juegos Silent Hill?",
+    question:
+      "¿Cuál es el nombre del protagonista de la serie de juegos Silent Hill?",
     category: terror,
     correct_answer: "Harry Mason",
-    incorrect_answers:  ["James Sunderland", "Alex Shepherd", "Heather Mason"],
+    incorrect_answers: ["James Sunderland", "Alex Shepherd", "Heather Mason"],
   },
 
   {
@@ -96,7 +93,8 @@ export const questions = [
   {
     id: 6,
     difficulty: "Medio",
-    question:  "¿En qué año se lanzó el juego de estrategia 'Age of Empires II'?",
+    question:
+      "¿En qué año se lanzó el juego de estrategia 'Age of Empires II'?",
     category: estrategias,
     correct_answer: "1999",
     incorrect_answers: ["2000", "1998", "2001"],
@@ -122,12 +120,12 @@ export const questions = [
   {
     id: 9,
     difficulty: "Difícil",
-    question: "En Resident Evil 4, ¿quién es el principal antagonista del juego?",
+    question:
+      "En Resident Evil 4, ¿quién es el principal antagonista del juego?",
     category: terror,
     correct_answer: "Osmund Saddler",
     incorrect_answers: ["Albert Wesker", "Nemesis", "William Birkin"],
   },
-  
 
   {
     id: 10,
@@ -176,11 +174,11 @@ export const questions = [
   {
     id: 15,
     difficulty: "Fácil",
-    question: "En el juego Amnesia: The Dark Descent, ¿cómo se llama el protagonista?",
+    question:
+      "En el juego Amnesia: The Dark Descent, ¿cómo se llama el protagonista?",
     category: terror,
     correct_answer: "Daniel",
-    incorrect_answers: ["John", "Samuel", "Robert"
-    ],
+    incorrect_answers: ["John", "Samuel", "Robert"],
   },
 
   {
@@ -231,7 +229,8 @@ export const questions = [
   {
     id: 20,
     difficulty: "Fácil",
-    question: "¿Qué monstruo recurrente aparece en la serie de juegos de Silent Hill como símbolo de la culpa y el remordimiento?",
+    question:
+      "¿Qué monstruo recurrente aparece en la serie de juegos de Silent Hill como símbolo de la culpa y el remordimiento?",
     category: terror,
     correct_answer: "Pyramid Head",
     incorrect_answers: ["Nemesis", "Mr. X", "Licker"],
@@ -249,7 +248,8 @@ export const questions = [
   {
     id: 22,
     difficulty: "Medio",
-    question: "¿Cuál es el nombre del comandante en jefe de las fuerzas terran en StarCraft?",
+    question:
+      "¿Cuál es el nombre del comandante en jefe de las fuerzas terran en StarCraft?",
     category: estrategias,
     correct_answer: "Jim Raynor",
     incorrect_answers: ["Arcturus Mengsk", "Sarah Kerrigan", "Tychus Findlay"],
@@ -257,10 +257,11 @@ export const questions = [
   {
     id: 23,
     difficulty: "Medio",
-    question: "¿En qué juego de arcade los jugadores tienen que rodar una bola de piedra y aplastar edificios?",
+    question:
+      "¿En qué juego de arcade los jugadores tienen que rodar una bola de piedra y aplastar edificios?",
     category: arcade,
     correct_answer: "Rampage",
-    incorrect_answers:  ["Donkey Kong", "Pac-Man", "Centipede"],
+    incorrect_answers: ["Donkey Kong", "Pac-Man", "Centipede"],
   },
 
   {
@@ -275,10 +276,11 @@ export const questions = [
   {
     id: 25,
     difficulty: "Medio",
-    question: "En el juego Outlast, ¿qué entidad siniestra controla el hospital psiquiátrico Mount Massive?",
+    question:
+      "En el juego Outlast, ¿qué entidad siniestra controla el hospital psiquiátrico Mount Massive?",
     category: terror,
     correct_answer: "La Murkoff Corporation",
-    incorrect_answers:  ["Slender Man", "The Walrider", "Red Barrels"],
+    incorrect_answers: ["Slender Man", "The Walrider", "Red Barrels"],
   },
 
   {
@@ -327,10 +329,11 @@ export const questions = [
   {
     id: 30,
     difficulty: "Fácil",
-    question: "¿Qué popular juego tenia una nave espacial que disparaba a oleadas de insectos alienígenas?",
+    question:
+      "¿Qué popular juego tenia una nave espacial que disparaba a oleadas de insectos alienígenas?",
     category: arcade,
     correct_answer: "Galaga",
-    incorrect_answers:  ["Asteroids", "Space Invaders", "Pac-Man"],
+    incorrect_answers: ["Asteroids", "Space Invaders", "Pac-Man"],
   },
 
   {
@@ -339,45 +342,60 @@ export const questions = [
     category: estrategias,
     question: "¿En qué año se lanzó el videojuego 'Civilization VI'?",
     correct_answer: "2016",
-    incorrect_answers:  ["2018", "2015", "2017"],
+    incorrect_answers: ["2018", "2015", "2017"],
   },
   {
     id: 32,
     difficulty: "Fácil",
     category: estrategias,
-    question: "¿Cuál es el juego de acción en el que juegas como un superhéroe arácnido?",
+    question:
+      "¿Cuál es el juego de acción en el que juegas como un superhéroe arácnido?",
     correct_answer: "Spider-Man (2018)",
     incorrect_answers: [
       "Batman: Arkham Knight",
       "Injustice 2",
-      "Marvel's Avengers"
-      ],
+      "Marvel's Avengers",
+    ],
   },
 
   {
     id: 33,
     difficulty: "Fácil",
     category: estrategias,
-    question: "¿Qué videojuego de estrategia se basa en la mitología griega y permite a los jugadores controlar a los dioses?",
+    question:
+      "¿Qué videojuego de estrategia se basa en la mitología griega y permite a los jugadores controlar a los dioses?",
     correct_answer: "Age of Mythology",
-    incorrect_answers:  ["Warcraft III: Reign of Chaos", "Rise of Nations", "Europa Universalis IV"],
+    incorrect_answers: [
+      "Warcraft III: Reign of Chaos",
+      "Rise of Nations",
+      "Europa Universalis IV",
+    ],
   },
   {
     id: 34,
     difficulty: "Medio",
     category: estrategias,
-    question: "¿Cuál es el juego de estrategia en tiempo real que se centra en la Segunda Guerra Mundial y permite a los jugadores controlar diferentes naciones?",
+    question:
+      "¿Cuál es el juego de estrategia en tiempo real que se centra en la Segunda Guerra Mundial y permite a los jugadores controlar diferentes naciones?",
     correct_answer: "Hearts of Iron IV",
-    incorrect_answers: ["Total War: Shogun 2", "Steel Division: Normandy 44", "Command & Conquer: Red Alert"],
+    incorrect_answers: [
+      "Total War: Shogun 2",
+      "Steel Division: Normandy 44",
+      "Command & Conquer: Red Alert",
+    ],
   },
   {
     id: 35,
     difficulty: "Medio",
     category: estrategias,
-    question: "¿Qué juego de estrategia tiene una expansión llamada 'The War Chiefs'?",
-    correct_answer:
-     "Age of Empires III",
-    incorrect_answers: ["Rise of Nations", "Total War: Shogun 2", "StarCraft II: Wings of Liberty"],
+    question:
+      "¿Qué juego de estrategia tiene una expansión llamada 'The War Chiefs'?",
+    correct_answer: "Age of Empires III",
+    incorrect_answers: [
+      "Rise of Nations",
+      "Total War: Shogun 2",
+      "StarCraft II: Wings of Liberty",
+    ],
   },
   {
     id: 36,
@@ -395,23 +413,32 @@ export const questions = [
     id: 37,
     difficulty: "Difícil",
     category: estrategias,
-    question:  "¿Cuál es el título del juego de estrategia en tiempo real lanzado en 2010, desarrollado por Relic Entertainment?",
-    correct_answer:"Company of Heroes",
-    incorrect_answers: ["Rise of Nations", "Sins of a Solar Empire", "Warhammer 40,000: Dawn of War II"],
+    question:
+      "¿Cuál es el título del juego de estrategia en tiempo real lanzado en 2010, desarrollado por Relic Entertainment?",
+    correct_answer: "Company of Heroes",
+    incorrect_answers: [
+      "Rise of Nations",
+      "Sins of a Solar Empire",
+      "Warhammer 40,000: Dawn of War II",
+    ],
   },
   {
     id: 38,
     difficulty: "Difícil",
     category: estrategias,
     question: "¿Qué juego de estrategia se desarrolla en la Antigua Roma?",
-    correct_answer:
-     "Total War: Rome II",
-    incorrect_answers: ["Age of Empires: Rise of Rome", "Civilization IV", "Imperivm: Great Battles of Rome"],
+    correct_answer: "Total War: Rome II",
+    incorrect_answers: [
+      "Age of Empires: Rise of Rome",
+      "Civilization IV",
+      "Imperivm: Great Battles of Rome",
+    ],
   },
   {
     id: 39,
     difficulty: "Difícil",
-    question: "¿Cuál es el juego en el que el jugador debe guiar a una rana a través del tráfico y un río?",
+    question:
+      "¿Cuál es el juego en el que el jugador debe guiar a una rana a través del tráfico y un río?",
     category: arcade,
     correct_answer: "Frogger",
     incorrect_answers: ["Galaga", "Pac-Man", "Space Invaders"],
@@ -419,7 +446,8 @@ export const questions = [
   {
     id: 40,
     difficulty: "Fácil",
-    question: "¿Cuál de los siguientes juegos tenia a un ladrón llamado Blinky?",
+    question:
+      "¿Cuál de los siguientes juegos tenia a un ladrón llamado Blinky?",
     category: arcade,
     correct_answer: "Pac-Man",
     incorrect_answers: ["Donkey Kong", "Centipede", "Space Invaders"],
@@ -428,7 +456,8 @@ export const questions = [
   {
     id: 41,
     difficulty: "Medio",
-    question:  "¿En qué juego de arcade los jugadores deben derrotar oleadas de alienígenas con una base y un cañón?",
+    question:
+      "¿En qué juego de arcade los jugadores deben derrotar oleadas de alienígenas con una base y un cañón?",
     category: arcade,
     correct_answer: "Space Invaders",
     incorrect_answers: ["Asteroids", "Galaga", "Defender"],
@@ -436,7 +465,8 @@ export const questions = [
   {
     id: 42,
     difficulty: "Difícil",
-    question: "¿Cuál de los siguientes no es un personaje jugable en el juego 'Street Fighter II'?",
+    question:
+      "¿Cuál de los siguientes no es un personaje jugable en el juego 'Street Fighter II'?",
     category: arcade,
     correct_answer: "Sonic the Hedgehog",
     incorrect_answers: ["Ryu", "Chun-Li", "Blanka"],
@@ -445,7 +475,8 @@ export const questions = [
   {
     id: 43,
     difficulty: "Fácil",
-    question: "¿Cuál es el juego de arcade conocido por presentar un escenario en el que el jugador debe evitar barriles lanzados por un gorila?",
+    question:
+      "¿Cuál es el juego de arcade conocido por presentar un escenario en el que el jugador debe evitar barriles lanzados por un gorila?",
     category: arcade,
     correct_answer: "Donkey Kong",
     incorrect_answers: ["Galaga", "Frogger", "Space Invaders"],
@@ -454,7 +485,8 @@ export const questions = [
   {
     id: 44,
     difficulty: "Medio",
-    question:"¿Qué juego de arcade lanzado en 1981 presenta a un carpintero llamado 'Jumpman'?",
+    question:
+      "¿Qué juego de arcade lanzado en 1981 presenta a un carpintero llamado 'Jumpman'?",
     category: arcade,
     correct_answer: "Donkey Kong",
     incorrect_answers: ["Frogger", "Galaga", "Ms. Pac-Man"],
@@ -463,23 +495,23 @@ export const questions = [
   {
     id: 45,
     difficulty: "Difícil",
-    question: "¿En qué juego de arcade los jugadores tienen que comer puntos y evitar fantasmas?",
+    question:
+      "¿En qué juego de arcade los jugadores tienen que comer puntos y evitar fantasmas?",
     category: arcade,
     correct_answer: "Pac-Man",
-    incorrect_answers:  ["Centipede", "Donkey Kong", "Space Invaders"],
+    incorrect_answers: ["Centipede", "Donkey Kong", "Space Invaders"],
   },
 
   {
     id: 46,
     difficulty: "Fácil",
-    question: "¿Qué personaje principal controlas en el juego 'Space Invaders'?",
+    question:
+      "¿Qué personaje principal controlas en el juego 'Space Invaders'?",
     category: arcade,
     correct_answer: "Cañón láser",
-    incorrect_answers:
-		["Astronave espacial", "Astronauta", "Alien invasor"],
-    
+    incorrect_answers: ["Astronave espacial", "Astronauta", "Alien invasor"],
   },
- 
+
   {
     id: 47,
     difficulty: "Medio",
@@ -488,11 +520,12 @@ export const questions = [
     correct_answer: "1980",
     incorrect_answers: ["1978", "1982", "1984"],
   },
- 
+
   {
     id: 48,
     difficulty: "Fácil",
-    question: "¿Qué videojuego de terror de supervivencia se desarrolla en un pueblo llamado Raccoon City?",
+    question:
+      "¿Qué videojuego de terror de supervivencia se desarrolla en un pueblo llamado Raccoon City?",
     category: terror,
     correct_answer: "Resident Evil 2",
     incorrect_answers: ["Dead Space", "The Evil Within", "Silent Hill 2"],
@@ -501,16 +534,18 @@ export const questions = [
   {
     id: 49,
     difficulty: "Medio",
-    question:  "En el juego Five Nights at Freddy's, ¿cuál es el nombre del animatrónico principal?",
+    question:
+      "En el juego Five Nights at Freddy's, ¿cuál es el nombre del animatrónico principal?",
     category: terror,
-    correct_answer:  "Freddy Fazbear",
-    incorrect_answers:  ["Chica", "Bonnie", "Foxxie"],
+    correct_answer: "Freddy Fazbear",
+    incorrect_answers: ["Chica", "Bonnie", "Foxxie"],
   },
- 
+
   {
     id: 50,
     difficulty: "Difícil",
-    question: "En el juego Alien: Isolation, ¿quién es el personaje principal que lucha por sobrevivir contra el xenomorfo?",
+    question:
+      "En el juego Alien: Isolation, ¿quién es el personaje principal que lucha por sobrevivir contra el xenomorfo?",
     category: terror,
     correct_answer: "Amanda Ripley",
     incorrect_answers: ["Ellen Ripley", "Isabella", "Michael Ripley"],
@@ -519,10 +554,15 @@ export const questions = [
   {
     id: 51,
     difficulty: "Fácil",
-    question: "¿Cuál es el título del juego en el que los jugadores deben escapar de una mansión embrujada y resolver puzles?",
+    question:
+      "¿Cuál es el título del juego en el que los jugadores deben escapar de una mansión embrujada y resolver puzles?",
     category: terror,
     correct_answer: "Resident Evil 7: Biohazard",
-    incorrect_answers: ["Dead by Daylight", "The Evil Within 2", "Silent Hill: Shattered Memories"],
+    incorrect_answers: [
+      "Dead by Daylight",
+      "The Evil Within 2",
+      "Silent Hill: Shattered Memories",
+    ],
   },
 
   {
@@ -531,14 +571,15 @@ export const questions = [
     question:
       "En el juego P.T., ¿cuál es el nombre del protagonista atrapado en un ciclo de pesadillas?",
     category: terror,
-    correct_answer:  "protagonista anónimo ",
+    correct_answer: "protagonista anónimo ",
     incorrect_answers: ["Samuel", "Lisa", "The Ghost of Lisa"],
   },
- 
+
   {
     id: 53,
     difficulty: "Difícil",
-    question:"En el juego Dead Space, ¿qué es la principal amenaza a la que se enfrenta el ingeniero Isaac Clarke?",
+    question:
+      "En el juego Dead Space, ¿qué es la principal amenaza a la que se enfrenta el ingeniero Isaac Clarke?",
     category: terror,
     correct_answer: "Necromorphs",
     incorrect_answers: ["Aliens", "Zombies", "Mutantes"],
@@ -547,10 +588,11 @@ export const questions = [
   {
     id: 54,
     difficulty: "Fácil",
-    question: "¿Qué videojuego de terror de supervivencia se desarrolla en la remota montaña de Blackwood Pines?",
+    question:
+      "¿Qué videojuego de terror de supervivencia se desarrolla en la remota montaña de Blackwood Pines?",
     category: terror,
     correct_answer: "Until Dawn",
-    incorrect_answers:  ["The Forest", "Outlast", "Silent Hill 4: The Room"],
+    incorrect_answers: ["The Forest", "Outlast", "Silent Hill 4: The Room"],
   },
 
   {
@@ -838,7 +880,8 @@ export const questions = [
   {
     id: 83,
     difficulty: "Fácil",
-    question: "¿Cuál es el nombre de la heroína principal en 'Heroes of Might and Magic III'?",
+    question:
+      "¿Cuál es el nombre de la heroína principal en 'Heroes of Might and Magic III'?",
     category: estrategias,
     correct_answer: "Catherine Ironfist",
     incorrect_answers: ["Sandro", "Gelu", "Solmyr"],
@@ -859,7 +902,7 @@ export const questions = [
       "¿Cuál es el nombre del protagonista en el juego de estrategia 'Command & Conquer: Red Alert'?",
     category: estrategias,
     correct_answer: "Michael Biehn",
-    incorrect_answers:  ["Kane", "Yuri", "Vladimir Kosygin"],
+    incorrect_answers: ["Kane", "Yuri", "Vladimir Kosygin"],
   },
   {
     id: 86,
@@ -882,8 +925,7 @@ export const questions = [
   {
     id: 88,
     difficulty: "Medio",
-    question:
-      "¿Qué juego de estrategia es conocido por su 'arte de guerra'? ",
+    question: "¿Qué juego de estrategia es conocido por su 'arte de guerra'? ",
     category: estrategias,
     correct_answer: "Total War: Three Kingdoms",
     incorrect_answers: ["Age of Empires III", "Civilization V", "Stellaris"],
@@ -891,7 +933,8 @@ export const questions = [
   {
     id: 89,
     difficulty: "Medio",
-    question:"¿En qué período histórico se desarrolla el juego 'Civilization VI'?",
+    question:
+      "¿En qué período histórico se desarrolla el juego 'Civilization VI'?",
     category: estrategias,
     correct_answer: "Histórico/Futurista",
     incorrect_answers: ["Antigüedad", "Medieval", "Moderno"],
@@ -899,137 +942,136 @@ export const questions = [
   {
     id: 90,
     difficulty: "Fácil",
-    question: "¿En qué videojuego de acción controlas a un personaje llamado Master Chief?",
+    question:
+      "¿En qué videojuego de acción controlas a un personaje llamado Master Chief?",
     category: accion,
     correct_answer: "Halo: Combat Evolved",
-    incorrect_answers:  [
-       		"Call of Duty: Modern Warfare",
-      		"Destiny",
-       		"Gears of War"
-       	  ],
+    incorrect_answers: [
+      "Call of Duty: Modern Warfare",
+      "Destiny",
+      "Gears of War",
+    ],
   },
   {
     id: 91,
     difficulty: "Fácil",
-    question: "¿Cuál es el título del juego de acción en el que te conviertes en un cazador de monstruos profesional?",
+    question:
+      "¿Cuál es el título del juego de acción en el que te conviertes en un cazador de monstruos profesional?",
     category: accion,
     correct_answer: "Monster Hunter: World",
-    incorrect_answers:  [
+    incorrect_answers: [
       "Dark Souls III",
       "Bloodborne",
-      "The Witcher 3: Wild Hunt"
-      ],
+      "The Witcher 3: Wild Hunt",
+    ],
   },
   {
     id: 92,
     difficulty: "Fácil",
-    question: "¿En qué videojuego de acción luchas contra los Combine, una raza alienígena opresora?",
+    question:
+      "¿En qué videojuego de acción luchas contra los Combine, una raza alienígena opresora?",
     category: accion,
     correct_answer: "Half-Life 2",
-    incorrect_answers:  [
-      "Bioshock Infinite",
-      "Prey",
-      "Crysis"
-      ],
+    incorrect_answers: ["Bioshock Infinite", "Prey", "Crysis"],
   },
   {
     id: 93,
     difficulty: "Fácil",
-    question: "¿Cuál es el juego de acción en tercera persona en el que controlas a un cazador de tesoros llamado Nathan Drake?",
+    question:
+      "¿Cuál es el juego de acción en tercera persona en el que controlas a un cazador de tesoros llamado Nathan Drake?",
     category: accion,
     correct_answer: "Uncharted 4: A Thief's End",
-    incorrect_answers:  [
+    incorrect_answers: [
       "Assassin's Creed: Black Flag",
       "The Last of Us",
-      "Tomb Raider"
-      ],
+      "Tomb Raider",
+    ],
   },
   {
     id: 94,
     difficulty: "Fácil",
-    question: "¿En qué videojuego de acción te enfrentas a demonios en un mundo infernal?",
+    question:
+      "¿En qué videojuego de acción te enfrentas a demonios en un mundo infernal?",
     category: accion,
     correct_answer: "Doom (2016)",
-    incorrect_answers:  [
+    incorrect_answers: [
       "Dark Souls",
       "Dead Space",
-      "Resident Evil 7: Biohazard"
-      ],
+      "Resident Evil 7: Biohazard",
+    ],
   },
   {
     id: 95,
     difficulty: "Fácil",
-    question: "¿Cuál es el título del juego de acción en el que asumes el papel de un agente secreto en un mundo abierto de espionaje?",
+    question:
+      "¿Cuál es el título del juego de acción en el que asumes el papel de un agente secreto en un mundo abierto de espionaje?",
     category: accion,
     correct_answer: "Deus Ex: Human Revolution",
-    incorrect_answers:  [
+    incorrect_answers: [
       "Watch Dogs",
       "Hitman: Absolution",
-      "Metal Gear Solid V: The Phantom Pain"
-      ],
+      "Metal Gear Solid V: The Phantom Pain",
+    ],
   },
   {
     id: 96,
     difficulty: "Fácil",
-    question: "¿En qué juego de acción eres un asesino a sueldo llamado Agent 47?",
+    question:
+      "¿En qué juego de acción eres un asesino a sueldo llamado Agent 47?",
     category: accion,
     correct_answer: "Hitman 3",
-    incorrect_answers:  [
+    incorrect_answers: [
       "Assassin's Creed Valhalla",
       "Mafia: Definitive Edition",
-      "Red Dead Redemption 2"
-      ],
+      "Red Dead Redemption 2",
+    ],
   },
   {
     id: 97,
     difficulty: "Fácil",
-    question: "¿Cuál es el título del juego de acción en el que te conviertes en un ninja cibernético en un mundo futurista?",
+    question:
+      "¿Cuál es el título del juego de acción en el que te conviertes en un ninja cibernético en un mundo futurista?",
     category: accion,
     correct_answer: "Cyberpunk 2077",
     incorrect_answers: [
       "Deus Ex: Mankind Divided",
       "Bioshock Infinite",
-      "Dishonored 2"
-      ],
+      "Dishonored 2",
+    ],
   },
   {
     id: 98,
     difficulty: "Fácil",
-    question: "¿En qué videojuego de acción te enfrentas a monstruos gigantes conocidos como Colosos para salvar a una princesa?",
+    question:
+      "¿En qué videojuego de acción te enfrentas a monstruos gigantes conocidos como Colosos para salvar a una princesa?",
     category: accion,
-    correct_answer:  "Shadow of the Colossus",
+    correct_answer: "Shadow of the Colossus",
     incorrect_answers: [
       "The Legend of Zelda: Breath of the Wild",
       "Dark Souls III",
-      "Bloodborne"
-      ],
+      "Bloodborne",
+    ],
   },
   {
     id: 99,
     difficulty: "Fácil",
-    question: "¿Cuál es el título del juego de acción en el que encarnas a un exmarine convertido en caza recompensas en un mundo postapocalíptico?",
+    question:
+      "¿Cuál es el título del juego de acción en el que encarnas a un exmarine convertido en caza recompensas en un mundo postapocalíptico?",
     category: accion,
-    correct_answer:  "Mad Max",
-    incorrect_answers: [
-      "Fallout 4",
-      "Rage 2",
-      "The Last of Us Part II"
-      ],
+    correct_answer: "Mad Max",
+    incorrect_answers: ["Fallout 4", "Rage 2", "The Last of Us Part II"],
   },
   {
     id: 100,
     difficulty: "Fácil",
-    question: "¿En qué videojuego de acción exploras un mundo lleno de dragones y magia?",
+    question:
+      "¿En qué videojuego de acción exploras un mundo lleno de dragones y magia?",
     category: accion,
     correct_answer: "The Elder Scrolls V: Skyrim",
     incorrect_answers: [
       "Dragon Age: Inquisition",
       "Dark Souls",
-      "The Witcher 3: Wild Hunt"
-      ],
+      "The Witcher 3: Wild Hunt",
+    ],
   },
 ];
-
-
-
-  

@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { CategoryPage, HomePage } from "./pages";
-import { NavBar } from "./components";
+import { NavBar } from "./components/Navbar";
 import { Question } from "./components/Question";
 import { Result } from "postcss";
 import Poligonbg from "./components/Polygonbg";
