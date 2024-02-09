@@ -6,7 +6,7 @@ import Arcade from "./assets/arcade.png";
 import Terror from "./assets/terror.png";
 import Estrategias from "./assets/estrategias.png";
 import Accion from "./assets/accion.png";
-import { GiPunch as Pelea } from "react-icons/gi";
+/* import { GiPunch as Pelea } from "react-icons/gi"; */
 
 
 
